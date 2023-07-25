@@ -25,8 +25,8 @@ Prepare a text file (youtubeURLs.txt) containing the YouTube video URLs, one URL
 Open the script (YT2MP3.py) and modify the following variables:
 
 - URLS_FILE_PATH: The file path of the text file containing the YouTube video URLs (default: "youtubeURLs.txt").
-- DOWNLOAD_PATH: The directory where you want the downloaded MP3 files to be saved. Replace YOUR_DOWNLOAD_PATH with your desired path.
-- Insert your RapidAPI key into the HEADERS dictionary by replacing YOUR_RAPID_API_KEY with your actual API key.
+- DOWNLOAD_PATH: The directory where you want the downloaded MP3 files to be saved. Replace {YOUR_DOWNLOAD_PATH} with your desired path.
+- Insert your RapidAPI key into the HEADERS dictionary by replacing {YOUR_RAPID_API_KEY} with your actual API key.
 
 ## Run
 
