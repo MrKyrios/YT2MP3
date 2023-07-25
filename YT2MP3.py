@@ -2,12 +2,12 @@ import os
 import requests
 
 URLS_FILE_PATH = "youtubeURLs.txt"
-DOWNLOAD_PATH = "YOUR_DOWNLOAD_PATH"
+DOWNLOAD_PATH = "{YOUR_DOWNLOAD_PATH}"
 
 API_URL = "https://youtube-mp36.p.rapidapi.com/dl"
 
 HEADERS = {
-    "X-RapidAPI-Key": "YOUR_RAPID_API_KEY",
+    "X-RapidAPI-Key": "{YOUR_RAPID_API_KEY}",
     "X-RapidAPI-Host": "youtube-mp36.p.rapidapi.com"
 }
 
