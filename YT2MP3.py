@@ -1,8 +1,9 @@
 import os
 import requests
 
-URLS_FILE_PATH = "youtubeURLs.txt"
+#Example: 'C:/Users/John/Downloads/'
 DOWNLOAD_PATH = "{YOUR_DOWNLOAD_PATH}"
+URLS_FILE_PATH = "youtubeURLs.txt"
 
 API_URL = "https://youtube-mp36.p.rapidapi.com/dl"
 
@@ -19,8 +20,6 @@ def read_file_lines(file_path):
 def download_mp3(video_id):
     querystring = {"id": video_id}
     response = requests.get(API_URL, headers=HEADERS, params=querystring)
-
-    print(response.json())
 
     json_response = response.json()
 
